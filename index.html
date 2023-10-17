@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+	<meta charset="UTF-8">
+	<title>ストップウォッチ</title>
+	<link rel="icon" type="image/png" href="images/star.png">
+    <link rel="stylesheet" href="style.css">
+	<script src="script.js"></script>
+</head>
+
+<body>
+	<div class="wrapper">
+		<div id="time">00:00.00</div>
+		<div>
+			<button id="start" onclick="start()">Start</button>
+			<button id="stop" onclick="stop()" disabled="">Stop</button>
+			<button id="reset" onclick="reset()">Reset</button>
+		</div>
+	</div>
+
+
+<div id="UMS_TOOLTIP" style="position: absolute; cursor: pointer; z-index: 2147483647; background: transparent; top: -100000px; left: -100000px;"></div>
+<div id="trend_notification_app" class="trend_notification_app_outer">
+	<div id="trend_notification">
+		<div id="trend_notification_con"></div></div></div>
+</body>
+
+<umsdataelement id="UMSDataElement" style="display: none;"></umsdataelement>
+<div id="tmtoolbar_manual_rating_injected" style="display: none;">init</div>
+<div id="UMSSendDataEventElement" style="display: none;">init</div></html>

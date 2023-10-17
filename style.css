@@ -1,0 +1,42 @@
+@charset "utf-8";
+
+/*全体*/
+.wrapper{
+    font-family: arial, sans-serif;
+	max-width: 600px;
+	margin: 0 auto;
+	color: #666;
+	text-align: center;
+}
+
+/* 時間表示 */
+#time{
+    font-size: 60px;
+    margin: 20px 0;
+}
+
+/*ボタン*/
+button {
+    padding: 20px 0;
+    font-size: 30px;
+    display: inline-block;
+    padding: .8rem 1.6rem;
+    border: none;
+    color: #FFF;
+    background-color: #4ab74a;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: #94d492;
+}
+
+button:disabled {
+    cursor: default;
+    background-color: #92d4c3;
+}
